@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>to do list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    >
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="new-task">
+            <h1 id="todo">Grocery Bud</h1>
+            <input type="text" placeholder="e.g eggs" />
+            <button id="push">Add</button>
+        </div>
+        <div id="tasks" contenteditable="false"></div>
+        <button class="items" onclick="clear_el()">clear items</button>
+    </div>  
+    
+    <script src="script.js"></script>
+</body>
+</html>
